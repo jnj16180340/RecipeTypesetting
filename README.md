@@ -2,6 +2,8 @@ Formats your recipes into a easy-to-use trees.
 
 Some example recipes are given in lieu of real documentation ;)
 
+Use: Run the .m file (see .sh) from /recipes/
+
 Recipes and output are in /recipes/{text, png, svg}
 
 NB: To bracket some ingredients, use {None,"blah","bleh"...}. To not-bracket them, use ..."blah","bleh" etc. This is a matter of personal aesthetics; maybe bracketing ingredients is a directive to combine them together before adding.
