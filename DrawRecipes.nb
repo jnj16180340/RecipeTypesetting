@@ -1,0 +1,403 @@
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[         0,          0]
+NotebookDataLength[     17562,        402]
+NotebookOptionsPosition[     16660,        367]
+NotebookOutlinePosition[     16999,        382]
+CellTagsIndexPosition[     16956,        379]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+If this doesn' t run from the command line, try converting cells to \
+initialization cells OR uncomment them in the .m file ...\
+\>", "Text",
+ CellChangeTimes->{{3.631753384656287*^9, 3.63175342593688*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"testRecipeTitle", " ", "=", " ", "\"\<this is a test\>\""}], ";", 
+  " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{"usually", " ", "the", " ", "filename"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"testRecipe", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<Do a whole shitload of crap. Process C is realllly fuckin long\>\"", 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<processB\>\"", ",", " ", "\"\<ingredient 1\>\"", ",", " ", 
+       "\"\<ingredient 2\>\"", ",", " ", "\"\<ingredient 3\>\""}], "}"}], ",",
+      "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+      "None", ",", " ", "\"\<ingredient X\>\"", ",", " ", 
+       "\"\<ingredient Y\>\"", ",", " ", 
+       RowBox[{"{", 
+        RowBox[{
+        "\"\<processA\>\"", ",", " ", "\"\<ingredient 1\>\"", ",", " ", 
+         "\"\<ingredient 2\>\"", " ", ",", "\"\<ingredient 3\>\""}], "}"}]}], 
+      "}"}]}], "\[IndentingNewLine]", "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.631632138701188*^9, 3.6316322322846622`*^9}, {
+   3.631633139260599*^9, 3.6316331651019573`*^9}, {3.631665444415536*^9, 
+   3.631665475180614*^9}, {3.631673608535778*^9, 3.631673609010439*^9}, {
+   3.6316819156777973`*^9, 3.63168199021734*^9}, {3.6316821133726997`*^9, 
+   3.6316821240176783`*^9}, {3.631731294909554*^9, 3.631731329539988*^9}, {
+   3.631731997603277*^9, 3.631732000070952*^9}, {3.6317321452908373`*^9, 
+   3.631732154031004*^9}, {3.631736730058597*^9, 3.631736817710039*^9}, {
+   3.631737145392174*^9, 3.6317371627280807`*^9}, 3.631737267121011*^9, {
+   3.6317374145315237`*^9, 3.631737431094455*^9}, {3.631737483999379*^9, 
+   3.6317375236076717`*^9}, {3.6317379910304527`*^9, 
+   3.6317380026678333`*^9}, {3.631739392548019*^9, 3.631739410285143*^9}, {
+   3.631739453639378*^9, 3.631739454289851*^9}, {3.631744233715049*^9, 
+   3.6317442641515493`*^9}, {3.631744381748684*^9, 3.631744382345414*^9}, {
+   3.631744593089979*^9, 3.631744600878256*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"MakeBoxes", "[", 
+    RowBox[{
+     RowBox[{"bracket", "[", "obj_", "]"}], ",", "fmt_"}], "]"}], ":=", 
+   RowBox[{"StyleBox", "[", 
+    RowBox[{
+     RowBox[{"RowBox", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"obj", "~", "ToBoxes", "~", "fmt"}], ",", "\"\<]\>\""}], 
+       "}"}], "]"}], ",", 
+     RowBox[{"SpanMaxSize", "\[Rule]", "Infinity"}], ",", 
+     RowBox[{"SpanSymmetric", "\[Rule]", "True"}]}], "]"}]}], ";"}]], "Input",\
+
+ InitializationCell->True,
+ CellChangeTimes->{{3.631641199054037*^9, 3.631641199073148*^9}, {
+   3.631641272414948*^9, 3.63164129351451*^9}, {3.631641344415029*^9, 
+   3.6316413481658783`*^9}, {3.631641483879097*^9, 3.631641488520714*^9}, {
+   3.6316415200228567`*^9, 3.631641530046359*^9}, {3.63164202384011*^9, 
+   3.631642089768444*^9}, {3.6316421244862547`*^9, 3.631642134694203*^9}, {
+   3.631642431054104*^9, 3.631642542992072*^9}, 3.631642603282441*^9, {
+   3.631642644391523*^9, 3.631642645297093*^9}, {3.6316427816557198`*^9, 
+   3.631642800178163*^9}, {3.631643126899304*^9, 3.631643148311791*^9}, {
+   3.631659172346602*^9, 3.631659266338622*^9}, 3.631659327706561*^9, 
+   3.631659582289386*^9, {3.631660023712879*^9, 3.63166010738382*^9}, {
+   3.6316602462144623`*^9, 3.631660249767474*^9}, {3.631660284390655*^9, 
+   3.6316603197824574`*^9}, {3.631660574087228*^9, 3.6316606554754677`*^9}, {
+   3.631660742549747*^9, 3.6316607430836983`*^9}, {3.631660900499782*^9, 
+   3.6316609583482513`*^9}, 3.6316610279817133`*^9, {3.6316614950918627`*^9, 
+   3.63166150089721*^9}, {3.6316617681122828`*^9, 3.6316618479703207`*^9}, {
+   3.6316619178321333`*^9, 3.6316619764265327`*^9}, {3.631662030225721*^9, 
+   3.6316621358247547`*^9}, {3.6316621688346233`*^9, 3.631662189993869*^9}, {
+   3.631662279410337*^9, 3.631662283760936*^9}, {3.63166268037604*^9, 
+   3.631662681141982*^9}, {3.631663133636932*^9, 3.631663191348269*^9}, {
+   3.631663352556799*^9, 3.631663456716022*^9}, {3.631663563606827*^9, 
+   3.6316635639182587`*^9}, {3.631663604614812*^9, 3.631663617166196*^9}, {
+   3.631663662573661*^9, 3.631663694989848*^9}, {3.631663824444159*^9, 
+   3.6316638697398357`*^9}, {3.6317441030426064`*^9, 3.6317441035459747`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"DrawSingleLevel", "[", "element_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Row", "@", 
+   RowBox[{"List", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"bracket", "[", "\[IndentingNewLine]", 
+      RowBox[{"Column", "[", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"element", "[", 
+         RowBox[{"[", 
+          RowBox[{"2", ";;"}], "]"}], "]"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"Spacings", "\[Rule]", "1"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"ItemSize", "\[Rule]", "Automatic"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"Alignment", " ", "\[Rule]", " ", "Right"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"BaselinePosition", "\[Rule]", "Automatic"}]}], 
+       "\[IndentingNewLine]", "]"}], "\[IndentingNewLine]", "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Style", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"Column", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"List", "@", 
+          RowBox[{"element", "[", 
+           RowBox[{"[", "1", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"ItemSize", " ", "\[RuleDelayed]", "  ", 
+          RowBox[{"(", 
+           RowBox[{"(", 
+            RowBox[{"Automatic", " ", "/.", " ", 
+             RowBox[{"Automatic", " ", "\[RuleDelayed]", "  ", 
+              RowBox[{"8", " ", "/;", " ", 
+               RowBox[{
+                RowBox[{"StringLength", "@", 
+                 RowBox[{"element", "[", 
+                  RowBox[{"[", "1", "]"}], "]"}]}], ">", "15"}]}]}]}], ")"}], 
+           ")"}]}]}], " ", 
+        RowBox[{"(*", " ", 
+         RowBox[{
+          RowBox[{
+          "linewrap", " ", "processes", " ", "that", " ", "are", " ", "too", 
+           " ", "long"}], ",", " ", 
+          RowBox[{"NB", " ", "it", " ", 
+           RowBox[{"doesn", "'"}], "t", " ", "actually", " ", "wrap", " ", 
+           "to", " ", "the", " ", "length", " ", "that", " ", "you", " ", 
+           "set", " ", 
+           RowBox[{
+            RowBox[{"it", "!!"}], "!"}]}]}], " ", "*)"}], 
+        "\[IndentingNewLine]", "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"LineIndent", " ", "\[Rule]", " ", "0"}]}], 
+      "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+    "]"}]}]}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.631728237601553*^9, 3.631728278306507*^9}, {
+   3.6317283257457733`*^9, 3.631728359095026*^9}, {3.631728397945303*^9, 
+   3.6317284690808353`*^9}, {3.63172857187033*^9, 3.6317287163547792`*^9}, {
+   3.631728787596949*^9, 3.631728799310933*^9}, {3.631729659740231*^9, 
+   3.6317297167311153`*^9}, {3.631729782402981*^9, 3.6317298006129704`*^9}, {
+   3.631729970792191*^9, 3.6317299734168377`*^9}, {3.631730209714738*^9, 
+   3.631730210749814*^9}, {3.6317302557061872`*^9, 3.631730256909781*^9}, {
+   3.631731822363223*^9, 3.631731828345397*^9}, {3.631732262376042*^9, 
+   3.6317322794233437`*^9}, {3.631732374898657*^9, 3.631732375366897*^9}, {
+   3.63173240879888*^9, 3.631732475142799*^9}, {3.631732565386595*^9, 
+   3.631732663240093*^9}, {3.631732715165242*^9, 3.631732727638918*^9}, {
+   3.63173702911029*^9, 3.6317370302201653`*^9}, {3.631737903003392*^9, 
+   3.631737973559125*^9}, {3.631738022615041*^9, 3.631738082981441*^9}, {
+   3.631738546245949*^9, 3.63173860988372*^9}, {3.631738733526713*^9, 
+   3.631738759314397*^9}, {3.63173897513335*^9, 3.631738984911536*^9}, {
+   3.6317390202132*^9, 3.631739172477249*^9}, {3.631739214502886*^9, 
+   3.631739247712802*^9}, {3.631739280180521*^9, 3.6317393577234793`*^9}, {
+   3.631742100911734*^9, 3.6317421138188*^9}, {3.631742145096026*^9, 
+   3.6317422196254168`*^9}, 3.6317441846880198`*^9, {3.631755466345519*^9, 
+   3.6317554674810467`*^9}, {3.631755860628543*^9, 3.6317558612887793`*^9}, {
+   3.631755947319397*^9, 3.6317559624300833`*^9}, {3.6317560397268267`*^9, 
+   3.631756048991634*^9}, {3.631756079740734*^9, 3.631756107757968*^9}, {
+   3.631756154453672*^9, 3.6317562094555607`*^9}, {3.631756247186116*^9, 
+   3.631756272711994*^9}, {3.631757233109811*^9, 3.631757236618843*^9}, {
+   3.6317574067861*^9, 3.631757407044054*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WriteRecipe", "[", "recipe_", "]"}], ":=", 
+  RowBox[{"Module", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"recipe2", " ", "=", " ", 
+      RowBox[{"recipe", "/.", " ", 
+       RowBox[{"None", "\[Rule]", "\"\<\>\""}]}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"where", "=", 
+      RowBox[{"Sort", "[", 
+       RowBox[{
+        RowBox[{"Position", "[", 
+         RowBox[{"recipe2", ",", "List"}], "]"}], ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Length", "[", "#1", "]"}], ">", 
+          RowBox[{"Length", "[", "#2", "]"}]}], "&"}]}], "]"}]}], ";", 
+     RowBox[{"where", "=", 
+      RowBox[{"Take", "[", 
+       RowBox[{"where", ",", 
+        RowBox[{"1", ";;", 
+         RowBox[{"-", "2"}]}]}], "]"}]}], " ", ";", "\[IndentingNewLine]", 
+     RowBox[{"Map", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"recipe2", " ", "=", " ", 
+          RowBox[{"ReplacePart", "[", 
+           RowBox[{"recipe2", ",", 
+            RowBox[{
+             RowBox[{"Take", "[", 
+              RowBox[{"#", ",", 
+               RowBox[{"1", ";;", 
+                RowBox[{"-", "2"}]}]}], "]"}], "\[Rule]", " ", 
+             RowBox[{"DrawSingleLevel", "[", 
+              RowBox[{"Extract", "[", 
+               RowBox[{"recipe2", ",", 
+                RowBox[{"Take", "[", 
+                 RowBox[{"#", ",", 
+                  RowBox[{"1", ";;", 
+                   RowBox[{"-", "2"}]}]}], "]"}]}], "]"}], "]"}]}]}], "]"}]}],
+          ")"}], "&"}], ",", "\[IndentingNewLine]", "where"}], 
+      "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"recipe2", " ", "=", " ", 
+      RowBox[{"DrawSingleLevel", "[", "recipe2", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Text", "[", 
+      RowBox[{"recipe2", ",", " ", 
+       RowBox[{"BaseStyle", " ", "\[Rule]", " ", 
+        RowBox[{"{", 
+         RowBox[{"Large", ",", 
+          RowBox[{"FontFamily", "\[Rule]", " ", "\"\<Times\>\""}]}], 
+         "}"}]}]}], "]"}]}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.631736576214999*^9, 3.631736663530382*^9}, 
+   3.6317367510023527`*^9, 3.63173706930544*^9, {3.631737395123024*^9, 
+   3.631737402861452*^9}, {3.631737465066403*^9, 3.631737469600525*^9}, {
+   3.631737541261779*^9, 3.6317376377059803`*^9}, {3.6317413308602457`*^9, 
+   3.6317413475510283`*^9}, {3.631741401159017*^9, 3.631741414647373*^9}, {
+   3.63174145278511*^9, 3.631741524635223*^9}, {3.631741555128154*^9, 
+   3.631741563788376*^9}, {3.631741632829138*^9, 3.6317417630875*^9}, {
+   3.631741883257113*^9, 3.6317419104598923`*^9}, {3.631744187437071*^9, 
+   3.631744189896207*^9}, {3.631752112492385*^9, 3.631752112939746*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"TitleRecipe", "[", 
+   RowBox[{"recipe_", ",", "title_"}], "]"}], ":=", " ", 
+  RowBox[{"Column", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Text", "[", 
+       RowBox[{"title", ",", 
+        RowBox[{"BaseStyle", " ", "\[Rule]", " ", 
+         RowBox[{"{", 
+          RowBox[{"Large", ",", 
+           RowBox[{"FontFamily", "\[Rule]", " ", "\"\<Times\>\""}]}], 
+          "}"}]}]}], "]"}], ",", "recipe"}], "}"}], ",", " ", 
+    RowBox[{"Alignment", "\[Rule]", "Center"}], ",", 
+    RowBox[{"Spacings", "\[Rule]", "2"}]}], "]"}]}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.631744511458892*^9, 3.6317445634397993`*^9}, {
+  3.631752130213978*^9, 3.631752130666428*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Processor", "[", "filename_", "]"}], ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"name", "=", "filename"}], ",", 
+      RowBox[{"recipe", " ", "=", " ", 
+       RowBox[{
+        RowBox[{"ReadList", "[", "filename", "]"}], "[", 
+        RowBox[{"[", "1", "]"}], "]"}]}], ",", "\[IndentingNewLine]", " ", 
+      RowBox[{"inputDir", " ", "=", " ", "\"\</text/\>\""}], ",", 
+      RowBox[{"pngDir", "=", "\"\</png/\>\""}], ",", 
+      RowBox[{"svgDir", "=", "\"\</svg/\>\""}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"recipe", " ", "=", " ", 
+      RowBox[{"WriteRecipe", "@", "recipe"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"recipe", "=", " ", 
+      RowBox[{"TitleRecipe", "[", 
+       RowBox[{"recipe", ",", 
+        RowBox[{"FileNameTake", "[", 
+         RowBox[{"name", ",", 
+          RowBox[{"-", "1"}]}], "]"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Directory", "[", "]"}], "<>", "svgDir", "<>", 
+        RowBox[{"FileNameTake", "[", 
+         RowBox[{"name", ",", 
+          RowBox[{"-", "1"}]}], "]"}], "<>", "\"\<.svg\>\""}], ",", 
+       RowBox[{"Framed", "[", 
+        RowBox[{"recipe", ",", 
+         RowBox[{"FrameStyle", " ", "\[Rule]", " ", "White"}]}], "]"}]}], 
+      "]"}], " ", ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Directory", "[", "]"}], "<>", "pngDir", "<>", 
+        RowBox[{"FileNameTake", "[", 
+         RowBox[{"name", ",", 
+          RowBox[{"-", "1"}]}], "]"}], "<>", "\"\<.png\>\""}], ",", " ", 
+       "recipe"}], "]"}], ";"}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.631749142362379*^9, 3.6317491435123034`*^9}, {
+   3.6317493027879753`*^9, 3.6317493894021063`*^9}, {3.631749942583219*^9, 
+   3.631750027913816*^9}, {3.631750085442271*^9, 3.631750122719158*^9}, 
+   3.6317501673447742`*^9, {3.631750315879678*^9, 3.631750381647211*^9}, {
+   3.631750423472536*^9, 3.631750429770048*^9}, {3.631750470476089*^9, 
+   3.6317505061391087`*^9}, {3.631750553731555*^9, 3.6317506778576508`*^9}, {
+   3.63175071095905*^9, 3.6317507334313602`*^9}, {3.63175076758082*^9, 
+   3.631750771338921*^9}, {3.631750994660577*^9, 3.631750995952959*^9}, {
+   3.631751045415186*^9, 3.631751086442134*^9}, {3.6317513816338873`*^9, 
+   3.631751389934125*^9}, {3.63175196326694*^9, 3.631751979828136*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Main", ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"dir", " ", "=", " ", 
+       RowBox[{"Directory", "[", "]"}]}], ",", 
+      RowBox[{"inputDir", " ", "=", " ", "\"\</text/\>\""}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Processor", " ", "/@", 
+     RowBox[{"FileNames", "[", 
+      RowBox[{"\"\<*\>\"", ",", 
+       RowBox[{"dir", "<>", "inputDir"}]}], "]"}]}]}], "\[IndentingNewLine]", 
+   "]"}]}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.631751507302403*^9, 3.631751507703374*^9}, {
+  3.631751556593992*^9, 3.631751793857044*^9}, {3.6317518890375357`*^9, 
+  3.631751926399411*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"Print", "[", 
+  RowBox[{"\"\<Beginning in directory \>\"", "<>", 
+   RowBox[{"Directory", "[", "]"}]}], 
+  "]"}], "\[IndentingNewLine]", "Main", "\[IndentingNewLine]", 
+ RowBox[{"Print", "[", "\"\<A tiny strawberry...\>\"", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Exit", "[", "]"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "for", " ", "conversion", " ", "to", " ", "commmand", " ", "line"}], " ", 
+   "*)"}]}]}], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.631751741587788*^9, 3.63175174290382*^9}, {
+   3.631751779459306*^9, 3.631751779603878*^9}, 3.63175208496404*^9, {
+   3.6317524510770397`*^9, 3.631752455984193*^9}, {3.6317526747442293`*^9, 
+   3.6317527147600327`*^9}, {3.631753458837435*^9, 3.631753458974057*^9}, 
+   3.6317551302169123`*^9}]
+},
+WindowSize->{839, 741},
+WindowMargins->{{-2, Automatic}, {-35, Automatic}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (September 9, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[400, 13, 216, 4, 46, "Text"],
+Cell[619, 19, 2001, 39, 165, "Input"],
+Cell[2623, 60, 2230, 39, 77, "Input",
+ InitializationCell->True],
+Cell[4856, 101, 4173, 79, 495, "Input",
+ InitializationCell->True],
+Cell[9032, 182, 2828, 65, 275, "Input",
+ InitializationCell->True],
+Cell[11863, 249, 742, 19, 77, "Input",
+ InitializationCell->True],
+Cell[12608, 270, 2538, 55, 187, "Input",
+ InitializationCell->True],
+Cell[15149, 327, 697, 18, 77, "Input",
+ InitializationCell->True],
+Cell[15849, 347, 807, 18, 99, "Input",
+ InitializationCell->True]
+}
+]
+*)
+

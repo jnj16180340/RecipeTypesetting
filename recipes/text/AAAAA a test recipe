@@ -1,0 +1,6 @@
+{"Do a whole shitload of crap. Process C is realllly fuckin long",
+  {"processB", "ingredient 1", "ingredient 2", "ingredient 3"},
+  {None, "ingredient X", "ingredient Y", 
+    {"processA", "ingredient 1", "ingredient 2" , "ingredient 3"}
+  }
+}
