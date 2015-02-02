@@ -117,9 +117,6 @@
 <path style="stroke:none;" d="M 6.671875 -17.1875 L 1.703125 0.578125 L 0 0.578125 L 4.96875 -17.1875 Z "/>
 </symbol>
 <symbol overflow="visible" id="glyph1-2">
-<path style="stroke:none;" d="M 5.046875 4.78125 L 0.390625 4.78125 L 0.390625 3.03125 L 2.9375 3.03125 L 2.9375 -15.4375 L 0.390625 -15.4375 L 0.390625 -17.1875 L 5.046875 -17.1875 Z "/>
-</symbol>
-<symbol overflow="visible" id="glyph1-3">
 <path style="stroke:none;" d="M 12.6875 -5.265625 L 1.328125 -5.265625 L 1.328125 -7.234375 L 12.6875 -7.234375 Z "/>
 </symbol>
 </g>
@@ -141,24 +138,21 @@
   <use xlink:href="#glyph0-3" x="369" y="29"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-8" x="439" y="80.5"/>
-  <use xlink:href="#glyph0-6" x="448" y="80.5"/>
-  <use xlink:href="#glyph0-9" x="460" y="80.5"/>
+  <use xlink:href="#glyph0-8" x="451" y="80.5"/>
+  <use xlink:href="#glyph0-6" x="460" y="80.5"/>
+  <use xlink:href="#glyph0-9" x="472" y="80.5"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-10" x="485" y="80.5"/>
+  <use xlink:href="#glyph0-10" x="497" y="80.5"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph1-1" x="498" y="80.5"/>
+  <use xlink:href="#glyph1-1" x="510" y="80.5"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-11" x="505" y="80.5"/>
+  <use xlink:href="#glyph0-11" x="517" y="80.5"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph0-12" x="518" y="80.5"/>
-</g>
-<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph1-2" x="540" y="80.5"/>
+  <use xlink:href="#glyph0-12" x="530" y="80.5"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
   <use xlink:href="#glyph0-12" x="38" y="130.5"/>
@@ -284,7 +278,7 @@
   <use xlink:href="#glyph0-34" x="427" y="188"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
-  <use xlink:href="#glyph1-3" x="441" y="188"/>
+  <use xlink:href="#glyph1-2" x="441" y="188"/>
 </g>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
   <use xlink:href="#glyph0-11" x="456" y="188"/>
