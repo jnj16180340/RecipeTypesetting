@@ -7,7 +7,8 @@ Recipes and output are in /recipes/{text, png, svg}
 NB: To bracket some ingredients, use {None,"blah","bleh"...}. To not-bracket them, use ..."blah","bleh" etc. This is a matter of personal aesthetics; maybe bracketing ingredients is a directive to combine them together before adding.
 
 Known issues:
-Sometimes mathematica fucks up the Row[] layout. Changing ItemSize (column width) seems to help.
+Sometimes mathematica fouls up the Row[] layout. Changing ItemSize (column width) seems to help, as does putting \ns into items to keep the width low. Or, maybe it's a special character causing problems.
+
 Some characters are Bad. Known offenders include ; :
 
 In the future:
