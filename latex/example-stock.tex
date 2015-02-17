@@ -1,0 +1,26 @@
+\documentclass[12pt]{standalone}
+\usepackage{mathtools}
+\begin{document}
+\[ 
+\begin{rcases}\begin{alignedat}{3}
+  \begin{rcases}
+      \begin{alignedat}{3}
+	\text{g1 item1} \\[-1.5ex]
+	\\[-2ex] % spacing between grouped items
+	\text{g1 item2}
+	\end{alignedat}
+      \end{rcases}
+  \text{g1 label}\\
+  \text{g1.5} \\
+    \begin{rcases}
+      \begin{alignedat}{3}
+	\text{g2 item1} \\[-1.5ex]
+	\\[-2ex]
+	\text{g2 item2}
+	\end{alignedat}
+      \end{rcases}
+    \text{g2 label}
+  \end{alignedat}\end{rcases}
+\text{root label}
+\]
+\end{document} 
