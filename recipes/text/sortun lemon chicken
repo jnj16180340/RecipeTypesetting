@@ -1,8 +1,1 @@
- {None,
- {"just-brown butter\nsquish between skillets\n2x8'",
- {"under the skin", "chicken 4lb","butter 3/4st",
- 
- {"lemon confit\nsimmer 1hr\nuse 1/3C","blanched zest 5lemons","ooil 1C","salt 1/4t","juice 1/2C"}
- }
- },
- "Zatar"}
+("",("just-brown butter/squish between skillets/2x8'",("under the skin", "chicken 4lb","butter 3/4st",("lemon confit/simmer 1hr/use 1/3C","blanched zest 5lemons","ooil 1C","salt 1/4t","juice 1/2C"))),"Zatar")

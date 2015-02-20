@@ -1,7 +1,7 @@
-{"torch",
+("torch",
   "sug 1/4C",
-  {"325F 40-45'\nwater bath",
-    {"boil, sit 15'","CREAM 1pint", "vanillabean 1/2"},
-    {"'just lightens'","yolks 3","sug 1/4C"}
-  }
-}
+  ("325F 40-45'/water bath",
+    ("boil, sit 15'","CREAM 1pint", "vanillabean 1/2"),
+    ("'just lightens'","yolks 3","sug 1/4C")
+  )
+)

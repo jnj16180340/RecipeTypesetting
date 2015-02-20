@@ -1,25 +1,24 @@
-Formats your recipes into a easy-to-use trees.
+Formats your recipes into an easy-to-use tree.  
 
-Some example recipes are given in lieu of real documentation ;)
+The Mathematica code is defunct and removed-- Check it out in the history    
 
-Use: Run the .m file (see .sh) from /recipes/
+Intended to be to be simple, lightweight (no json, minimal formatting cruft), and mnemonic (interpret through the lens of intuition+ex-perience)    
 
-Recipes and output are in /recipes/{text, png, svg}
+Some example recipes are given in lieu of real documentation ;)    
 
-NB: To bracket some ingredients, use {None,"blah","bleh"...}. To not-bracket them, use ..."blah","bleh" etc. This is a matter of personal aesthetics; maybe bracketing ingredients is a directive to combine them together before adding.
+Use: Run the .sh file (see .sh) from /recipes/    
 
-Known issues:
-Sometimes mathematica fouls up the Row[] layout. Changing ItemSize (column width) seems to help, as does putting \ns into items to keep the width low. Or, maybe it's a special character causing problems.
+Recipes and output are in /recipes/{text, pdf,latex}    
 
-Some characters are Bad. Known offenders include ; :
+Known issues:    
+* The shell script is fucked, redo this    
+* newline character will change-- It's nice to be able to use /
+* Some characters are Bad. They should be replaced automatically.
 
-In the future:
-Implement this in LaTeX!!! it's a better choice, and FOSS
-Update the recipe format? Typing the "" gets tedious real fast
-Metadata: Citations (ha) and comments
-Use mathematica typesetting forms in recipes! for fractions etc
-Compile the mathematica to C, if possible
-Refactor to do with functional programming wizardry
-Formatting: A better (than left or right) alignment, print comments at the bottom
-Output: Display errors/weirdness if possible
-Extend the brackets PAST the boundary of text in column. it's UGLY
+In the future:    
+* Untrack ALL recipes EXCEPT for test input and output
+* DVG, PNG output instead of PDF???
+* Changes to the recipe format?    
+* Metadata: Citations (ha) and comments    
+* Pretttiness    
+* More recipes once the format is stabler

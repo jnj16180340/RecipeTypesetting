@@ -1,0 +1,4 @@
+*.aux
+*.pyc
+*.log
+.directory

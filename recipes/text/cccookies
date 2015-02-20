@@ -1,6 +1,6 @@
-{"3-5' 500F\nor lower/longer",
-  {"'fluffy,\nsize doubles'",
-  {"cream","butter 2st","sugar 1/2C","br sug 3/4C"},
-   {"vanilla 2t","egg 1", "milk splash"}},
+("3-5' 500F/or lower/longer",
+  ("'fluffy,/size doubles'",
+  ("cream","butter 2st","sugar 1/2C","br sug 3/4C"),
+   ("vanilla 2t","egg 1", "milk splash")),
   "flour 7/4C","BS 1/4t","BP 1/2t","salt 1t","cchips 2C"
-}
+)
